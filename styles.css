@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+body {
+    font-family: 'Kiwi Maru', serif;
+}
+/* bait page styles */
+
+@media screen and (min-width:320px) {
+    .categories .item {
+        display: inline-flex;
+        position: absolute;
+        left: 10px;
+        width: auto;
+        font-weight:normal;
+    }
+    
+    .categories .size{
+        display: inline-flex;
+        position: absolute;
+        left: 10px;
+    }
+    
+    .categories .price{
+        display:inline-flex;
+        position:absolute;
+        right: 5px;
+        width: auto;
+        font-weight:lighter;
+    }
+}
